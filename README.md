@@ -15,17 +15,28 @@ mathematics, and opened those. This is the other 673.
 | zero-byte or corrupt | 7 |
 | over 200 MB, member names only | 2 |
 | opened and read | 664 |
-| **held at least one mathematical claim** | **192 (28.9%)** |
-| held none | 472 |
+| either detector flags mathematics | 201 (30.3%) |
+| of those, dominated by an excluded topic | 96 |
+| **mathematics in a non-excluded archive** | **105 (15.8%)** |
+| of those, project/product/opaque-named | **93** |
+| of those, session transcripts | 12 |
 
-**The filename filter was wrong about 192 archives.** 143 of those 192 have project, product, or
-opaque names rather than session ids. 13 carry Lean theorem declarations.
+**The filename filter was wrong about 93 archives.** Those 93 carry project, product or opaque names
+with no mathematical token in them at all, and they hold real mathematics. That is the size of the
+blind spot.
 
-192 is a floor. The detector required three claim-lines, and `graph-bridge-real-delivery.zip` scored
-two while holding a 119-row exact strongly-regular-graph existence table.
+Two detectors with different matching strategies were run over the 560 archives both scored, and
+they agree on 94.8%. The disagreements are informative in both directions. `graph-bridge-real-delivery.zip`
+— the strongly-regular-graph table — was caught by one and missed by the other. In the opposite
+direction, the second detector's unique hits are mostly cheminformatics archives where "witness",
+"proved", "lattice" and "design" collide with a mathematical vocabulary. Those are excluded-topic
+false positives, and removing them takes the figure from 30.3% down to 15.8%.
 
-The 472 with nothing in them are fonts, clipart, WordPress plugins, bookkeeping, bank statements,
-web mockups.
+A first pass at this reported 28.9% without that separation. That number was inflated by the same
+false positives and is corrected here.
+
+The archives with nothing in them are fonts, clipart, WordPress plugins, bookkeeping, bank
+statements, web mockups.
 
 ---
 
