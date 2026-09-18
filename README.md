@@ -18,11 +18,17 @@ The practical conclusion is simple: filename-based discovery missed 93 archives 
 
 ## Major recovered subjects
 
-### Fiber coherence and Erdős #595
+### Erdős #595 and fiber coherence
 
-Eight archives with names such as `FIBER-COHERENCE`, `COHERENCE-CSP`, `THETA-COLLISION`, and `RANK-THREE-KERNEL` form one sustained program.
+Eight archives with names such as `FIBER-COHERENCE`, `COHERENCE-CSP`, `THETA-COLLISION`, and `RANK-THREE-KERNEL` form one sustained program connected to Erdős #595.
 
-Recovered results include:
+The mathematics has dedicated public homes and should be read there rather than in this recovery ledger:
+
+- [`erdos595-barrier-tower`](https://github.com/jaredwilder/erdos595-barrier-tower) — Erdős #595 itself: triangle-cover number, the continuum threshold, formal cardinal reductions, and structural consequences for a hypothetical `K_4`-free witness;
+- [`triangle-cover-number`](https://github.com/jaredwilder/triangle-cover-number) — triangle-cover formulations and related finite/structural theory;
+- [`fiber-coherence-cycle-rank`](https://github.com/jaredwilder/fiber-coherence-cycle-rank) — the recovered fiber/coherence program, including rank-one and rank-two structure, cycle-rank-three kernels, exact finite realizations, and complexity results.
+
+Recovered fiber/coherence results include:
 
 - complete rank-one coherence classification;
 - rank-two theta obstruction structure;
@@ -31,7 +37,7 @@ Recovered results include:
 - exact finite K4-free fiber-coherence realizations for binary CSPs;
 - NP-completeness at domain size three for the unbounded-rank finite problem.
 
-The cleaned subject-level presentation now lives in [`fiber-coherence-cycle-rank`](https://github.com/jaredwilder/fiber-coherence-cycle-rank).
+This repository preserves the discovery provenance only. The mathematical citation surfaces are the dedicated repositories above.
 
 ### Paley(17) triangle-cover computation
 
@@ -92,8 +98,14 @@ The audit also identified bad or overstated source claims, including:
 
 Those corrections are routed with the relevant subject material rather than promoted as independent mathematical results.
 
+## Publication rule
+
+No substantive result should live **only** in a recovery ledger, campaign archive, transcript dump, or opaque source directory.
+
+When a recovered subject has enough coherent mathematics to stand on its own, it should receive a dedicated public repository with a human-readable statement, scope, evidence, and verification path. Recovery repositories are provenance layers: they explain where the mathematics came from, not where a reader should be expected to discover or cite it.
+
 ## Purpose of this repository
 
-This is a discovery ledger, not the preferred citation surface for the mathematics it found. Mature subjects have been moved to focused repositories; this page records why those subjects were discovered and where they came from.
+This is a discovery ledger, not the preferred citation surface for the mathematics it found. Mature subjects are routed to focused repositories; this page records why those subjects were discovered and where they came from.
 
 Author: Jared Wilder. License: Apache-2.0.
